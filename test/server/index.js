@@ -8,7 +8,12 @@ const chat = {
 	registerCmd: (cmdTitle, callback) => {},
 };
 
-const allowedSkins = ["a_f_y_bevhills_04"];
+const allowedSkins = [
+	"a_f_y_bevhills_04",
+	"a_c_rhesus",
+	"a_f_m_bevhills_02",
+	"a_f_m_tramp_01",
+];
 const getRandomNumber = (threshHold) => Math.floor(Math.random() * threshHold);
 
 chat.registerCmd("test", (player, args) => {
